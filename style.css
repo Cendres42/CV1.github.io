@@ -1,0 +1,286 @@
+/*html
+{
+  height: 100%;
+}
+*/
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#bloc_page
+{
+    width: auto;
+    margin: auto;
+}
+a
+{
+  font-weight:bold;
+  text-decoration:none;
+  color:black;
+  font-style: oblique;
+}
+a:hover
+{
+  background-color: #cb3d2b;
+}
+p
+{
+    color: #cb3d2b;
+    font-size:1.2em;
+    font-style:normal;
+    margin:0;
+    font-weight:bold;
+}
+h1
+{
+  color:#cb3d2b;
+  font-weight:bold;
+  font-size:1.7em;
+  margin-top:10px;
+}
+h2
+{
+    color: #cb7a2b;
+    font-size:1.3em;
+    font-style:italic;
+}
+/*@font-face
+ {
+  font-family:'3Dumb';
+  src:url('3Dumb.ttf');
+}
+*/
+.legrandtitre
+{
+  color:black;
+  font-size:2em;
+  font-family:'3Dumb',"comic sans ms",sans-serif;
+  background-image:url("or.jpg");
+  text-align:center;
+  padding:20px;
+  margin:0px;
+}
+
+#identite
+{
+  color:black;
+  font-size: 1em;
+  background-image:url("feuilles2.jpg");
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-bottom: 5px;
+
+}
+li
+{
+    font-size:1em;
+}
+*
+{
+  font-family:"Comic sans ms",sans-serif;
+  text-align:justify;
+}
+.imageflottante
+{
+  float:left;
+  margin-right: 30px;
+  border-radius:15px;
+}
+
+.dessous
+{
+  clear:both;
+}
+
+body
+{
+  background-color: #f3e6d9;
+/*  background-image:url("astrale.gif");
+  border-radius: 15px;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: top right, ;
+  background-size:320px 280px;*/
+}
+
+mark
+{
+  background-color:white;
+}
+
+#formations, #experiences, #competences
+{
+  border: 2px #cb7a2b inset;
+  border-radius:5px;
+  box-shadow: 5px 5px 2px #cb7a2b;
+  width:auto;
+  margin-bottom: 15px;
+}
+#identite p
+{
+  color:black;
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+#identite h1
+{
+  color:black;
+  font-weight:bold;
+  font-size:1.5em;
+  margin-bottom: 0.3em;
+}
+
+strong
+{
+  font-size:2em;
+  color:#cb3d2b;
+}
+
+ul strong
+{
+  color:black;
+  font-weight: bold;
+  font-size:1em;
+}
+
+aside h1, article h1
+{
+  color: #cb7a2b;
+  font-size:1.3em;
+  font-style:italic;
+}
+
+article h2
+{
+  color:#cb3d2b;
+}
+
+#conteneur
+{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px #cb7a2b inset;
+  margin-top: 2em;
+  border-radius:5px;
+  background-color: #cb7a2b;
+  padding:10px;
+  margin:0px;
+}
+#conteneur a
+{
+  font-size:25px;
+}
+#conteneur4
+{
+  display:flex;
+  justify-content: space-around;
+  margin:auto;
+}
+
+#conteneur2
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  margin-right: 20px;
+  margin-left:70px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+}
+#conteneur3
+{
+  display:flex;
+  flex-direction: column;
+  margin-right: 50px;
+  flex-wrap: wrap;
+
+}
+aside, article
+{
+  border: 2px #cb7a2b inset;
+  margin-top: 2em;
+  border-radius:5px;
+  box-shadow: 5px 5px 2px #cb7a2b;
+  width:auto;
+  padding:7px;
+}
+article h2
+{
+  text-align: center;
+}
+footer
+{
+margin:0px;
+padding-left:70px;
+padding-top:20px;
+background-image:url("or.jpg");
+}
+
+#sidebar
+{
+  background-color: #cb3d2b;
+  width: 100px;
+  height: 3000px;
+  float:left;
+}
+
+table
+{
+  border-collapse: collapse;
+  margin:5px;
+}
+td,th
+{
+  border:2px #cb7a2b inset;
+  padding:2px;
+  text-align:center;
+}
+form
+{
+  margin:15px;
+}
+
+@media screen and (max-width: 1024px)
+{
+#bloc_page
+{
+width: auto;
+}
+
+#formations, #experiences, #competences
+{
+  width: auto;
+  margin:auto;
+  height: auto;
+  word-wrap: break-word;
+  overflow:auto;
+}
+
+#conteneur
+{
+flex-direction:column;
+  width: auto;
+}
+#conteneur4, #conteneur2, #conteneur3
+{
+  flex-direction:column;/*versus   flex-wrap: wrap;??*/
+  width: auto;
+  margin:auto;
+  height: auto;
+}
+
+body
+{
+  font-size:0.7em;
+}
+#sidebar
+{
+  display:none;
+}
+}
