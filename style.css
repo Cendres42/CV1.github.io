@@ -4,7 +4,7 @@
 }
 */
 body {
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 }
@@ -13,6 +13,7 @@ body {
 {
     width: auto;
     margin: auto;
+    height:auto;
 }
 a
 {
@@ -33,14 +34,15 @@ p
     margin:0;
     font-weight:bold;
 }
-h1
+h2
 {
   color:#cb3d2b;
   font-weight:bold;
   font-size:1.7em;
   margin-top:10px;
 }
-h2
+h3
+
 {
     color: #cb7a2b;
     font-size:1.3em;
@@ -125,7 +127,7 @@ mark
   font-size:1.1em;
 }
 
-#identite h1
+#identite h2
 {
   color:black;
   font-weight:bold;
@@ -146,13 +148,16 @@ ul strong
   font-size:1em;
 }
 
-aside h1, article h1
+aside h2, article h2
 {
   color: #cb7a2b;
   font-size:1.3em;
   font-style:italic;
 }
-
+#loisirs ul, #sports ul
+{
+    list-style-type: none;
+}
 article h2
 {
   color:#cb3d2b;
@@ -185,7 +190,6 @@ article h2
 {
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items:center;
   margin-right: 20px;
   margin-left:70px;
@@ -226,7 +230,7 @@ background-image:url("or.jpg");
 {
   background-color: #cb3d2b;
   width: 100px;
-  height: 3000px;
+  height: auto;
   float:left;
 }
 
@@ -251,6 +255,7 @@ form
 #bloc_page
 {
 width: auto;
+height: auto;
 }
 
 #formations, #experiences, #competences
